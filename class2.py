@@ -69,16 +69,3 @@ ary= np.array([[1,2],[3,4]])
 result2= ary.reshape(-1)
 print(result2)
 
-# SERIES AND DATAFRAME
-# Series is like a column, a DataFrame is the whole table.
-import pandas as pd
-a=[1,2,3]
-res= pd.Series(a)
-print(a)
-
-data = {
-  "calories": [420, 380, 390],
-  "duration": [50, 40, 45]
-}
-mydata=pd.DataFrame(data)
-print(mydata)
